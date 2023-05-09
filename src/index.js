@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Custom componets
+import Navbar from './components/navbar';
+// Custom Css
 
+import './stylesheets/navbar.css';
+
+
+// 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar first="Home" second="Community" third="Pages" fourth="Blog" fifth="Shop" sixth="Courses"/>
+   
+    {/* <App /> */}
   </React.StrictMode>
 );
 

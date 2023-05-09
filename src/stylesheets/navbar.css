@@ -1,0 +1,33 @@
+
+.navclass{
+    display: block;
+    background:transparent;
+    margin: 1px;
+    padding: 1rem;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+.nav-items{
+    font-size: 11px;
+    
+    display: flex;
+    
+    list-style-type: none;
+    align-items: center;
+    justify-content: left;
+     
+    
+    
+}
+.nav-items a{ 
+    color: #6F7692 ;
+    
+    /* font-weight: bold; */
+    padding:10px;
+    text-decoration: none;
+    cursor: pointer;
+  
+} 
+.nav-items a:hover{
+    color: blue;
+}
