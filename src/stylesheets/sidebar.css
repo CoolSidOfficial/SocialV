@@ -1,0 +1,29 @@
+/* body{
+    margin:0px; 
+    padding: 0px;
+} */
+.sidebar-class{
+    /* margin-top:-10px; */
+    background-color:green;
+    width: 170px;
+    height:900px;
+    z-index: -1;
+    position: absolute;
+    top:0px; 
+    
+    
+}
+.top-sidebar{
+    margin: 3px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.top-sidebar img{
+         
+    width:0px;
+}
+.top-sidebar #heading{
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 30px;
+}

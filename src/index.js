@@ -1,22 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 // Custom componets
 import Navbar from './components/navbar';
+import Sidebar from './components/sidebar';
 // Custom Css
 
 import './stylesheets/navbar.css';
+import './stylesheets/sidebar.css';
 
+// images
+import Dp from "./assets/profilepg.jpg";
+
+const profile_name="Marvin McKinney";
+const username="@marvin";
 
 // 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar first="Home" second="Community" third="Pages" fourth="Blog" fifth="Shop" sixth="Courses"/>
+    <Sidebar profile_photo={Dp} profile_name={profile_name} profile_username={username} />
    
-    {/* <App /> */}
   </React.StrictMode>
 );
 
