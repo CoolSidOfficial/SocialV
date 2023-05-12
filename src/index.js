@@ -10,12 +10,13 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
 import Sidebar from './components/sidebar';
 import Slider from './components/slider';
+import Footer from './components/footer';
 // Custom Css
 
 import './stylesheets/navbar.css';
 import './stylesheets/sidebar.css';
 import './stylesheets/slider.css';
-
+import './stylesheets/footer.css';
 // images
 import Dp from "./assets/profilepg.jpg";
 
@@ -31,12 +32,19 @@ import  status7 from "./assets/status/wine-glass.jpg";
 
 const profile_name="Marvin McKinney";
 const username="@marvin";
+
+// 
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar first="Home" second="Community" third="Pages" fourth="Blog" fifth="Shop" sixth="Courses" profile={Dp} />
     <Sidebar profile_photo={Dp} profile_name={profile_name} profile_username={username} />
    <Slider img={status} img2={status2} img3={status3} img4={status4} img5={status5} img6={status6} img7={status7}/>
+   <Footer />
   </React.StrictMode>
 );
 
