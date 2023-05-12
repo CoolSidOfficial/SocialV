@@ -5,53 +5,90 @@
 .sidebar-class{
     
     /* margin-top:-10px; */
-    background-color:#99acc4;
+    background-color:white;
     width: 260px;
-    height:900px;
-    z-index: -1;
+    height:700px;
+    z-index: 3;
     position: absolute;
     top:0px; 
     border: 1px solid;
 
 }
 #side-switch{
+           background: transparent;
+           border: none;
+           position: absolute;
+           top: 100px;
+           left:250px;
             width:0;
-            border-bottom:solid 30px black;
-            border-right:solid 30px transparent;
-            border-left:solid 30px transparent;
+            border-bottom:solid 25px grey;
+            /* border-top: solid 30px black; */
+            border-right:solid 25px transparent;
+            border-left:solid 25px transparent;
+            transform: rotate(90deg);
 }
 
 .top-sidebar{
-    margin: 3px;
+    margin: 25px;
+    display: flex;
+    /* padding: 5px; */
+    /* margin-top: 155px; */
     /* align-items: center; */
-    /* text-align: center; */
+    text-align: center;
+    
 }
 .top-sidebar img{
-         
+    
     width:40px;
+    height: 40px;
 }
 .top-sidebar #heading{
     font-weight: bold;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
+    /* padding: 10px; */
+    /* margin-top:30px; */
 }
 .sidebar-user img {
-   border-radius: 25px;
-   width: 45px;
-   
-
+    border-radius: 55px;
+    width: 55px;
+    height: 55px;
+    margin-top: -10px;
+    
+    
 }
 .sidebar-user {
+    border-top: 2px solid lightcyan;
+    /* border-bottom:2px solid white; */
     color: black;
-    font-size: 13px;
+    font-size: 16px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* margin: 10px; */
+    padding-top: 25px;
+    border-bottom: 2px solid lightcyan;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif ;
 }
 .sidebar-user #profile_username{
-    position: absolute; 
-   top:100px;
-   left:50px;
+  position: absolute; 
+   top:140px;
+   left:105px;
+   font-weight: normal;
 
+}
+.menu-items{
+    padding: 20px;
+}
+
+.sidebar-footer{
+  margin-top: 300px;
+   display: flex;
+   justify-content: center;
+}
+
+.sidebar-footer .footer-icons{
+   padding: 20px;
 }

@@ -45,7 +45,7 @@
 }
 .right-nav li{
     padding: 10px;
-    width: 30px;
+    width: 40px;
 }
 
 #sun-nav-logo{
@@ -62,5 +62,7 @@
     width: 60px;
     margin-top: -10px;
     margin-right: 50px;
+    cursor: pointer;
+
     /* margin-top: -30px; */
 }

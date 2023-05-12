@@ -1,0 +1,20 @@
+.carousel{
+    background-color: hsl(0, 0%, 91%);
+    height: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+.carousel-inside{
+    margin-left: 260px;
+    display: flex;
+    /* text-align: center; */
+    /* justify?-?content: center; */
+}
+
+.carousel-inside div img{
+    max-width:150px;
+     padding: 10px;
+     border-radius: 10%;
+    }
+
