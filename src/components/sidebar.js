@@ -11,9 +11,11 @@ import {
     faCaretRight,
     faLock,
     faBell,
-    faGear
+    faGear,
+    faBagShopping,
+    faImage
 }from '@fortawesome/free-solid-svg-icons'
-function Hidenav(){
+function Toggle(){
     document.getElementsByClassName("toggle")[0].style.display="none";
     // document.getElementsByClassName("sidebar-class")[0].style.width="500px";
 }
@@ -23,7 +25,7 @@ function Sidebar(props){
     
     return(
     <>
-    <button id="side-switch" onClick={Hidenav}></button>    
+    <button id="side-switch" onClick={Toggle}></button>    
      <div className="sidebar-class">
         <span class="top-sidebar">
 
@@ -32,34 +34,44 @@ function Sidebar(props){
             
         </span>
             
-        <div className="sidebar-user toggle">
+        <div className="sidebar-user ">
         <img src={props.profile_photo}></img>
-         <span id="profile_name">{props.profile_name}</span>
+         <span id="profile_name ">{props.profile_name}</span>
          <span id="profile_username">{props.profile_username}</span>
         </div>
 
-        <div className="menu-items">
+        <div className="menu-items ">
             <span id="heading">MENU</span>
-           <div>
+           <div className="side-items">
            
-            <FontAwesomeIcon icon={faFileLines} />
+            <FontAwesomeIcon className="side-icons" icon={faFileLines} />
             <span>Newsfeed</span> 
             </div>
        
-           <div>
-            <FontAwesomeIcon icon={faUserGroup} />      
+           <div className="side-items">
+            <FontAwesomeIcon className="side-icons" icon={faUserGroup} />      
             <span>Members</span> </div>
-          <div> <FontAwesomeIcon icon={faPeopleGroup} />
+          <div className="side-items"> <FontAwesomeIcon className="side-icons" icon={faPeopleGroup} />
            <span>Group</span>
             </div>
-           <div>
-           <FontAwesomeIcon icon={faShield} />
+           <div className="side-items">
+           <FontAwesomeIcon className="side-icons" icon={faShield} />
             <span>Badges</span>
              </div>
            
-            <div>
-            <FontAwesomeIcon icon={faCommentDots} />
+            <div className="side-items">
+            <FontAwesomeIcon className="side-icons" icon={faCommentDots} />
             <span>Messages</span>
+
+            </div>
+            <div className="side-items">
+            <FontAwesomeIcon className="side-icons" icon={faImage} />
+            <span>Gallery</span>
+
+            </div>
+            <div className="side-items">
+            <FontAwesomeIcon className="side-icons" icon={faBagShopping} />
+            <span>Shop  </span>
 
             </div>
         </div>

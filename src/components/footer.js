@@ -5,13 +5,14 @@ function Footer(props){
     return(
         <div className="footer-sections">
             <section className="left-side">
-               <img id="logo"src={Logo}/>
+               <img id="main-logo"src={Logo}/>
                 <span id="title-heading">SocialV</span>
                 <span id="download-title">Download app from</span>
-                <img id="appstore-logo" src={AppStoreLogo}/>             
-                <img id="playstore-logo" src={PlayStoreLogo } />
+                <img className="appstore logo" src={AppStoreLogo}/> 
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+                <img className="playstore logo" src={PlayStoreLogo}/>
             </section>
-            <section clasName="right-side">
+            <section className="right-side">
             <div className="first-column">
                 <span className="columns-heading">COMPANY</span>
                 <span className='columns-data'>About Us</span>
@@ -32,7 +33,7 @@ function Footer(props){
             </div>
             <div className="third-column">
             <span className="columns-heading">HELP</span>
-            <span className='columns-data'>Frequenty Asked Questions</span>
+            <span className='columns-data'>Frequenty Asked <br></br>Questions</span>
             <span className='columns-data'>Privacy Policy</span>
             <span className='columns-data'>Terms&Condition</span>
 
