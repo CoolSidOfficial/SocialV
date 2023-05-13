@@ -10,12 +10,17 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
 import Sidebar from './components/sidebar';
 import Slider from './components/slider';
+import ActiveUsers from './components/active_users';
+import LatestActivities  from './components/latest_activites';
 import Footer from './components/footer';
+
 // Custom Css
 
 import './stylesheets/navbar.css';
 import './stylesheets/sidebar.css';
 import './stylesheets/slider.css';
+import './stylesheets/active_users.css';
+import './stylesheets/latest_activites.css';
 import './stylesheets/footer.css';
 // images
 import Dp from "./assets/profilepg.jpg";
@@ -44,6 +49,8 @@ root.render(
     <Navbar first="Home" second="Community" third="Pages" fourth="Blog" fifth="Shop" sixth="Courses" profile={Dp} />
     <Sidebar profile_photo={Dp} profile_name={profile_name} profile_username={username} />
    <Slider img={status} img2={status2} img3={status3} img4={status4} img5={status5} img6={status6} img7={status7}/>
+   <ActiveUsers/>
+   <LatestActivities/>
    <Footer />
   </React.StrictMode>
 );
