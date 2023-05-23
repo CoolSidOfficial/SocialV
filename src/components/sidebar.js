@@ -16,8 +16,14 @@ import {
     faImage
 }from '@fortawesome/free-solid-svg-icons'
 function Toggle(){
-    document.getElementsByClassName("toggle")[0].style.display="none";
-    // document.getElementsByClassName("sidebar-class")[0].style.width="500px";
+    let tog= document.getElementsByClassName("sidebar-class")[0];
+    if (tog.style.width==="0px"){
+        tog.style.width="260px";
+
+    }
+    else{
+        tog.style.width="0px";
+    }
 }
 
 // 

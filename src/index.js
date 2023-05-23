@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
 // font awesome 
 
 
@@ -10,8 +9,11 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
 import Sidebar from './components/sidebar';
 import Slider from './components/slider';
+import Posts from './components/posts';
 import ActiveUsers from './components/active_users';
 import LatestActivities  from './components/latest_activites';
+import Suggestions from './components/suggestions_box';
+import SideBanner  from './components/side_banner';
 import Footer from './components/footer';
 
 // Custom Css
@@ -19,8 +21,11 @@ import Footer from './components/footer';
 import './stylesheets/navbar.css';
 import './stylesheets/sidebar.css';
 import './stylesheets/slider.css';
+import './stylesheets/posts.css';
 import './stylesheets/active_users.css';
 import './stylesheets/latest_activites.css';
+import './stylesheets/suggestion_box.css';
+import './stylesheets/side_banner.css';
 import './stylesheets/footer.css';
 // images
 import Dp from "./assets/profilepg.jpg";
@@ -37,7 +42,6 @@ import  status7 from "./assets/status/wine-glass.jpg";
 
 const profile_name="Marvin McKinney";
 const username="@marvin";
-
 // 
 
 
@@ -49,13 +53,15 @@ root.render(
     <Navbar first="Home" second="Community" third="Pages" fourth="Blog" fifth="Shop" sixth="Courses" profile={Dp} />
     <Sidebar profile_photo={Dp} profile_name={profile_name} profile_username={username} />
    <Slider img={status} img2={status2} img3={status3} img4={status4} img5={status5} img6={status6} img7={status7}/>
+   <Posts dp={Dp} poster="Jenny Wilson"/>
+ 
    <ActiveUsers/>
-   <LatestActivities/>
+   <LatestActivities  profile={Dp}/>
+   <Suggestions />
+   <SideBanner/>
    <Footer />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();

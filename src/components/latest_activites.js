@@ -1,14 +1,27 @@
+import check from "../assets/check.png"
+export  function Recent(props){
+return(
+<div  className="update">
+        <img src={props.profile} className="lat-dp"alt="" />
+        <span className="profile-name">Marvin McKinney</span>
+        <img src={check} className="blue-tick"/>
+        <span className="update-desc">posted an update<br/></span> 
+        <span className="last-seen">16  hours ago</span> 
+         </div>)
+}
 function LatestActivities(props){
+    
+
     return(
-        <div className="latactiv">
+        <div className="lastactiv">
          <span id="latest_heading">Latest Activities</span>
-         <div  className=""> </div>
-         <div className=""></div>
-         <div className=""></div>
-         <div className=""></div>
-         <div className=""></div>
-
-
+         
+         <Recent profile={props.profile} />
+        
+         <Recent profile={props.profile} />    
+         <Recent profile={props.profile} />
+         <Recent profile={props.profile} />
+         <Recent profile={props.profile} />
         </div>
 
     )

@@ -1,0 +1,38 @@
+.post_box{
+    width: 650px;
+    background-color: white;
+    height: 600px;
+    position: absolute;
+    top:400px;
+    left: 270px; 
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    list-style-type:none;
+    padding: 10px;
+
+    /* margin: 10px; */
+    /* justify-content: space-around; */
+}
+nav li{
+    padding: 5px;
+}
+.pdp{
+    border-radius: 70%;
+    height: 70px;
+    padding-left: 7px;
+   }
+.blue-tick{
+    width: 15px;
+    height:20px;
+    padding: 2px;
+    /* margin-top: -55px; */
+}
+#tripledot{
+  margin-left: 200px;
+ 
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

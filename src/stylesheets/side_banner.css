@@ -1,0 +1,36 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-top:60px ;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top:1600px;
+    right:20px;
+    background: url("../assets/left-banner.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#socialvbanner{
+
+    width: 150px;
+    height: 50px;
+}
+#banner_text{
+    padding:10px;
+   font-weight: bold;
+   color:white; 
+   font-size: 20px;
+}
+
+#contact_button{
+    background-color:white;
+    border: none;
+    width: 170px;
+    height: 50px;
+    font-size: 25px;
+    cursor:pointer;
+    border-radius: 7px;
+}
