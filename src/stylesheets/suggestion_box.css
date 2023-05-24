@@ -15,6 +15,7 @@
 }
 .data_box span{
     padding-left:8px;
+    padding-right: 12px;
     display: flex;
     flex-direction: column;
 }
@@ -31,4 +32,23 @@
     font-size:20px;
     display: block;
     border-bottom: 1px solid lightgrey;
+}
+
+.plus{
+    color: blue;
+    cursor: pointer;
+    padding: 5px ;
+    /* margin-left: 2px; */
+    width: 30px;
+    height: 30px;
+
+}
+.cross{
+    width: 30px;
+   height: 30px;
+    padding: 5px;
+    margin: 8px;
+    color:red;
+    cursor: pointer;
+
 }

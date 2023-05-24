@@ -7,8 +7,8 @@ function  Suggestions (){
         <span >Anshu Meena</span>
         <span>@aianshu</span> 
         </section>
-           <img src="" className="plus" alt="" />         
-           <img src="" className="cross"alt="" />          
+           <button className="plus">+</button>         
+           <button  className="cross" >X</button>   
 
         </div>
  return(

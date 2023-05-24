@@ -1,6 +1,6 @@
 .carousel{
     background-color: hsl(0, 0%, 91%);
-    height: 2500px;
+    height: 5500px;
     position: relative;
     z-index: -1;
     overflow-x: hidden;

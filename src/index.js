@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
 import Sidebar from './components/sidebar';
 import Slider from './components/slider';
-import Posts from './components/posts';
+import PostsContainer from './components/posts';
 import ActiveUsers from './components/active_users';
 import LatestActivities  from './components/latest_activites';
 import Suggestions from './components/suggestions_box';
@@ -53,7 +53,7 @@ root.render(
     <Navbar first="Home" second="Community" third="Pages" fourth="Blog" fifth="Shop" sixth="Courses" profile={Dp} />
     <Sidebar profile_photo={Dp} profile_name={profile_name} profile_username={username} />
    <Slider img={status} img2={status2} img3={status3} img4={status4} img5={status5} img6={status6} img7={status7}/>
-   <Posts dp={Dp} poster="Jenny Wilson"/>
+   <PostsContainer/>
  
    <ActiveUsers/>
    <LatestActivities  profile={Dp}/>

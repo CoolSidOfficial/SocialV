@@ -1,10 +1,11 @@
 
 .navclass{
     display: flex;
-    background:transparent;
+    background-color:white;
     margin-top: 0px;
     padding: 1rem;
     margin-left: 250px;
+    position: sticky;
     justify-content: space-between;
     /* z-index: 10; */
 
