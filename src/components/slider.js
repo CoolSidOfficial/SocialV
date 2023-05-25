@@ -1,4 +1,5 @@
 import caralogo from "../assets/profilepg.jpg"
+const jenny="jenny wilson";
 function Slider(props)
 { return(
     <div class="carousel">
@@ -7,38 +8,44 @@ function Slider(props)
             <div>
                 <img src ={props.img} className="cara_img"alt="" />
                 <img src={caralogo}className="carousel_logo" />
-                <span>{}</span>
+                <span className="caro_text">{jenny}</span>
             </div>
             <div>
                 <img src={props.img2} className="cara_img"alt="" />
                 <img src={caralogo} className="carousel_logo" />
-                <span>{}</span>
+                <span className="caro_text">{jenny}</span>
+                
             </div>
             <div>
                 <img src={props.img3} className="cara_img"alt="" />
                 <img src={caralogo}className="carousel_logo" />
                 
-                <span>{}</span>
+                <span className="caro_text">{jenny}</span>
+                
             </div>
             <div>
                 <img src={props.img4} className="cara_img"alt="" />
                 <img src={caralogo}className="carousel_logo" />
-                <span>{}</span>
+                <span className="caro_text">{jenny}</span>
+               
             </div>
             <div>
                 <img src={props.img5} className="cara_img"alt="" />
                 <img src={caralogo}className="carousel_logo" />
-                {/* <span>siddhant jain</span> */}
+                <span className="caro_text">{jenny}</span>
+               
             </div>
             <div>
                 <img src={props.img6} className="cara_img"alt="" />
                 <img src={caralogo}className="carousel_logo" />
-                <span>{}</span>
+                <span className="caro_text">{jenny}</span>
+               
             </div>
             <div>
                 <img src={props.img7} className="cara_img"alt="" />
                 <img src={caralogo}className="carousel_logo" />
-                <span>{}</span>
+                <span className="caro_text">{jenny}</span>
+               
             </div>
           
             </section>
