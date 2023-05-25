@@ -86,3 +86,34 @@ nav ul {
     left: 270px; 
     /* justify-content: space-evenly; */
 }
+
+
+/* like comment share */
+#post_footer{
+    display: flex;
+    /* justify-content: space-between  ; */
+    border-top: solid 5px lightcyan;
+}
+
+#post_footer button{
+    border :none;
+    background:none;
+    width:180px;
+    cursor: pointer ;
+    height: 120px;
+    font-size: 18px;
+    color: grey;
+}
+#share{
+    background: none;
+    margin-left: 200px;
+}
+#reacted{
+    color:grey;
+    padding: 10px;
+}
+
+.reacted-section img{
+   width: 30px;
+   padding-left: 1px;
+}

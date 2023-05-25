@@ -1,6 +1,6 @@
 import check from "../assets/check.png";
 import first_dp from "../assets/profilepg.jpg"
-
+import { useState } from "react";
 
 // post images 
 import first_post from "../assets/posts/threegirls.jpg";
@@ -11,11 +11,20 @@ import fifth_post from "../assets/posts/bus.jpg";
 import six_post from "../assets/posts/celebration.jpg";
 import seven_post from "../assets/posts/pizza.jpg";
 import eight_post from "../assets/posts/yacht_couple.jpg";
+import lemoji from "../assets/posts/love.png";
+import fuemoji from "../assets/posts/funny.png";
+import hemoji from "../assets/posts/happy.png";
 
-// 
+// font awesome icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faThumbsUp,faComment, faShareNodes}  from '@fortawesome/free-solid-svg-icons';
+
+
+
 const first_name="Jenny WIlson"
 // 
 function Posts(props){
+    const[count,setcount]=useState(5);
     return(
      <div className="post_box">
         <nav>
@@ -33,30 +42,20 @@ function Posts(props){
             <span><br/>Lorem ipsum dolor sit amet.</span>
           <img src={props.image_post} className="post_image"/>
         </section>
-            <div>
-                {/* <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-         */}
+            <div className="reacted-section">
+                <img src={lemoji}/>
+                <img src={hemoji}/>
+                <img src={fuemoji}/>
+                <span id="reacted" >Reacted by Marvin McKinney and {count}&nbsp;Others</span>
             </div>
-           <div>
-            <span></span>
-           <span></span>
-           <span></span></div>
+           <div id="post_footer">
+            <button className="like_comment" onClick={()=>setcount(count+1)}><FontAwesomeIcon icon={faThumbsUp} />&nbsp; &nbsp; Like </button>
+            <button className="like_comment"><FontAwesomeIcon icon={faComment} />&nbsp;&nbsp;Comment </button>
+            <button id="share"> <FontAwesomeIcon icon={faShareNodes} />&nbsp;&nbsp;Share </button>
+           </div>
             <section></section>  
 
      </div>
-
-
-
-
-
-
-
 
     );
  
@@ -73,7 +72,6 @@ function Posts(props){
             <Posts dp={first_dp} poster={first_name} image_post ={seven_post}/>
             <Posts dp={first_dp} poster={first_name} image_post ={eight_post}/>
             
-
         </div>
        ); 
  }

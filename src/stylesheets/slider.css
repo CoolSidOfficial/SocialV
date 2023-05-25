@@ -1,6 +1,7 @@
 .carousel{
     background-color: hsl(0, 0%, 91%);
-    height: 5500px;
+    height: 6800px;
+    /* height: fit-content; */
     position: relative;
     z-index: -1;
     overflow-x: hidden;
@@ -13,9 +14,15 @@
     /* justify?-?content: center; */
 }
 
-.carousel-inside div img{
+.carousel-inside .cara_img{
     max-width:150px;
      padding: 10px;
      border-radius: 10%;
     }
-
+.carousel_logo{
+   border: 3px solid white;
+    border-radius: 23%;
+    margin-top:-80px;
+    width: 40px;
+    margin-left: 60px;
+}
