@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/SocialV/static/css/main.c9b09264.css",
+    "main.js": "/SocialV/static/js/main.42fcaf78.js",
+    "static/js/787.d5942fd5.chunk.js": "/SocialV/static/js/787.d5942fd5.chunk.js",
+    "static/media/bus.jpg": "/SocialV/static/media/bus.37843008f9a2922914f3.jpg",
+    "static/media/mountain.jpg": "/SocialV/static/media/mountain.6096409a8905c3c31318.jpg",
+    "static/media/football.jpg": "/SocialV/static/media/football.fa721a426851836830a5.jpg",
+    "static/media/threegirls.jpg": "/SocialV/static/media/threegirls.844a2dfbd3d8f10f1494.jpg",
+    "static/media/celebration.jpg": "/SocialV/static/media/celebration.0ea70cabbb8344cc6012.jpg",
+    "static/media/snowed-land_800x1200.jpg": "/SocialV/static/media/snowed-land_800x1200.761d4cce4e777afbf3c1.jpg",
+    "static/media/left-banner.jpeg": "/SocialV/static/media/left-banner.8086b06c3deebd15acba.jpeg",
+    "static/media/pizza.jpg": "/SocialV/static/media/pizza.6c46dfc564737ab724b5.jpg",
+    "static/media/climber.jpg": "/SocialV/static/media/climber.2b0bc54c22dbcf3c3a21.jpg",
+    "static/media/wine-glass.jpg": "/SocialV/static/media/wine-glass.3389277f61e68066d0c0.jpg",
+    "static/media/girl_face.jpg": "/SocialV/static/media/girl_face.cee3cb9caeb0aeb84697.jpg",
+    "static/media/nightwithhut.jpg": "/SocialV/static/media/nightwithhut.6f31e2f695ca838e20f2.jpg",
+    "static/media/yacht_couple.jpg": "/SocialV/static/media/yacht_couple.e6fd444aba1907a1ec6a.jpg",
+    "static/media/couple.jpg": "/SocialV/static/media/couple.ee3626f4e9f2b78ef4ac.jpg",
+    "static/media/sun.png": "/SocialV/static/media/sun.7c58241755498e5f4e23.png",
+    "static/media/check.png": "/SocialV/static/media/check.f306c52678eeef9af6d6.png",
+    "static/media/default-avatar.jpg": "/SocialV/static/media/default-avatar.99de531baf580a088a48.jpg",
+    "static/media/logo-white.svg": "/SocialV/static/media/logo-white.69bf4148cd44423a93f20adce2c83f8b.svg",
+    "static/media/logo-mini.svg": "/SocialV/static/media/logo-mini.83065cb8e6fac37a6254be29fe547249.svg",
+    "index.html": "/SocialV/index.html",
+    "main.c9b09264.css.map": "/SocialV/static/css/main.c9b09264.css.map",
+    "main.42fcaf78.js.map": "/SocialV/static/js/main.42fcaf78.js.map",
+    "787.d5942fd5.chunk.js.map": "/SocialV/static/js/787.d5942fd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9b09264.css",
+    "static/js/main.42fcaf78.js"
+  ]
+}
